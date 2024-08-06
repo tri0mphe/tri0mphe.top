@@ -1,0 +1,34 @@
+name: hugo-blog
+
+on:
+  push:
+    branches:
+      - main  # 博客根目录的默认分支，这里是main，有时也是master
+  pull_request:
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2
+              with:
+                  submodules: true
+                  fetch-depth: 0
+
+            - name: Setup Hugo
+              uses: peaceiris/actions-hugo@v2
+              with:
+                  hugo-version: "latest"
+
+            - name: Build Web
+              run: hugo
+
+            - name: Deploy Web
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  PERSONAL_TOKEN: ${{ secrets.hugo }}
+                  EXTERNAL_REPOSITORY: TriompheL/tri0mphe.github.io
+                  PUBLISH_BRANCH: main
+                  PUBLISH_DIR: ./public
+                  commit_message: ${{ github.event.head_commit.message }}
