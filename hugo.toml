@@ -1,4 +1,4 @@
-baseURL = "https://tri0mphe.github.io"
+baseURL = "http://tri0mphe.github.io"
 title   = "Hello Triomphe"
 languageCode = "en-us"
 theme = "hello-friend-ng"
