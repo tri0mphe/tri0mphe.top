@@ -7,28 +7,30 @@ on:
   pull_request:
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout
-              uses: actions/checkout@v2
-              with:
-                  submodules: true
-                  fetch-depth: 0
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@v2
+        with:               # 如果你安装主题时用的是git submodule add
+          submodules: true  # 那么这三行不必注释掉，这一行填写 true
+#           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-            - name: Setup Hugo
-              uses: peaceiris/actions-hugo@v2
-              with:
-                  hugo-version: "latest"
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'  # 填写你的hugo版本，可用hugo version查看
+          extended: true          # 如果你使用的不是extended版本的hugo，将true改为false
 
-            - name: Build Web
-              run: hugo
+      - name: Build
+        run: hugo --minify
 
-            - name: Deploy Web
-              uses: peaceiris/actions-gh-pages@v3
-              with:
-                  PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}   # 要在源仓库的Secrets and variables - Actions中配置
-                  EXTERNAL_REPOSITORY: TriompheL/tri0mphe.github.io
-                  PUBLISH_BRANCH: main
-                  PUBLISH_DIR: ./public
-                  commit_message: ${{ github.event.head_commit.message }}
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/main' }}  # 注意填写main或者master
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }} # 如果secret取了其他名称，将PERSONAL_TOKEN替换掉
+          external_repository: TriompheL/tri0mphe.github.io # 填写远程仓库，不一定是这个格式，按照自己的情况写 
+          publish_dir: ./public
+          #cname: blog.example.com        # 填写你的自定义域名。如果没有用自定义域名，注释掉这行
