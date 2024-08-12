@@ -3,7 +3,7 @@
   "useMarkdownLinks": true,
   "attachmentFolderPath": "images",
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "relative",
   "newFileLocation": "folder",
   "newFileFolderPath": "content/posts",
   "userIgnoreFilters": [
