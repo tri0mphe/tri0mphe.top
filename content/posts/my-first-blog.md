@@ -21,4 +21,4 @@ print("heelo")
 
 ### 测试图片
 ![](/images/test.png)
-![test](/images/test.png)
+![test](images/test.png)

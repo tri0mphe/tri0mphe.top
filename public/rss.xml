@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 12 Aug 2024 10:21:25 &#43;0800</lastBuildDate>
+        <lastBuildDate>Mon, 12 Aug 2024 16:38:45 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="http://localhost:1313/rss.xml" />
         
@@ -1350,7 +1350,7 @@ so, such as in this example:&lt;/p&gt;
 &lt;p&gt;123123&lt;/p&gt;
 &lt;h3 id=&#34;测试图片&#34;&gt;测试图片&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/test.png&#34; alt=&#34;&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/images/test.png&#34; alt=&#34;test&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;images/test.png&#34; alt=&#34;test&#34;&gt;&lt;/p&gt;
 </description>
                 
                 
