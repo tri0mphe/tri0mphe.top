@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/my-first-blog.md",
+                "file": "_Templates/模板.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/my-first-blog.md",
+                "file": "_Templates/模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/my-first-blog.md",
+                "file": "_Templates/模板.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/my-first-blog.md"
+                "file": "_Templates/模板.md"
               }
             }
           }
@@ -148,37 +148,38 @@
   },
   "active": "7c2705dbddb93738",
   "lastOpenFiles": [
+    "content/posts/my-first-blog.md",
+    "_Templates/模板.md",
+    "_Templates",
+    "content/about.md",
+    "content/posts/goisforlovers.md",
+    "images/test.png",
+    "images",
+    "content/posts/creating-a-new-theme.md",
+    "public/images/test.png",
+    "public/images/Pasted image 20240807152431.png",
+    "public/images",
+    "public/未命名",
+    "static/images",
+    "public/img/Pasted image 20240807152431.png",
+    "public/img",
+    "static/img",
+    "static",
+    "content/posts/migrate-from-jekyll.md",
+    "content/posts/creating-a-new-theme.fr.md",
     "public/tags/扫描/index.html",
     "public/tags/扫描",
-    "public/tags/安全/index.html",
-    "public/tags/安全",
     "content/about/_index.md",
     "content/posts/hugoisforlovers.md",
-    "content/posts/creating-a-new-theme.md",
-    "content/posts/goisforlovers.md",
-    "content/posts/creating-a-new-theme.fr.md",
-    "content/posts/my-first-blog.md",
-    "content/posts/migrate-from-jekyll.md",
     "content/posts/goisforlovers.fr.md",
     "content/posts/hugoisforlovers.fr.md",
     "content/posts/migrate-from-jekyll.fr.md",
-    "public/css/meme.min.4ce28c3656b429976ab1d06b9e94b902540f107c581e8d1e6550aa89b28b227a.css",
-    "content/about",
-    "public/rss.xml",
-    "public/atom.xml",
-    "public/posts/my-first-blog/index.html",
-    "public/posts/my-first-blog",
-    "public/posts/migrer-vers-hugo-depuis-jekyll/index.html",
     "public/icons/safari-pinned-tab.svg",
     "public/icons/mstile-150x150.png",
     "public/icons/apple-touch-icon.png",
     "public/icons/android-chrome-512x512.png",
     "themes/meme/static/icons/safari-pinned-tab.svg",
     "themes/meme/static/icons/mstile-150x150.png",
-    "themes/meme/static/icons/apple-touch-icon.png",
-    "themes/meme/static/icons/android-chrome-512x512.png",
-    "themes/meme/images/tn.png",
-    "themes/meme/images/screenshot.png",
     "themes/meme/README.zh-tw.md",
     "themes/meme/README.zh-cn.md",
     "themes/meme/README.md",
@@ -192,7 +193,6 @@
     "themes/hello-friend-ng/exampleSite/content/posts/creating-a-new-theme.md",
     "themes/hello-friend-ng/exampleSite/content/posts/creating-a-new-theme.fr.md",
     "themes/hello-friend-ng/exampleSite/content/about.md",
-    "themes/hello-friend-ng/docs/svgs.md",
-    "themes/hello-friend-ng/docs/favicons.md"
+    "themes/hello-friend-ng/docs/svgs.md"
   ]
 }

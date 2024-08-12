@@ -48,6 +48,15 @@ disablePathToLower = false
 relativeURLs = false
 uglyURLs = false
 
+# 模块加载
+[module]
+  [[module.mounts]]
+  source = 'static'
+  target = 'static'
+  [[module.mounts]]
+    source = 'images'
+    target = 'static/images'
+
 # URL 结构
 [permalinks]
     categories = "/categories/:slug/"
@@ -57,6 +66,7 @@ uglyURLs = false
 [taxonomies]
     category = "categories"
     tag = "tags"
+
 
 # 修改时间
 [frontmatter]
@@ -867,7 +877,7 @@ uglyURLs = false
     # 文章目录
 
     # 是否开启（全局设置）
-    enableTOC = false
+    enableTOC = true
     # 说明：文章的 Front Matter 中的 `toc`
     #      的优先级高于此处
 
