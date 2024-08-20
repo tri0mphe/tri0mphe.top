@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://Tri0mpheL.github.io"
-title = "Hugo 主题 MemE"
+title = "剑客六七"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -110,15 +110,15 @@ uglyURLs = false
 # 作者信息
 [author]
     # 名字
-    name = "coyote"
+    name = "Tri0mphe"
     # 邮箱
-    email = "reuixiy@gmail.com"
+    email = "tri0mphe@qq.com"
     # 座右铭或简介
-    motto = "Viva La Vida"
+    motto = "什么是座右铭"
     # 头像
     avatar = "/icons/apple-touch-icon.png"
     # 网站（默认值：baseURL）
-    website = "https://io-oi.me/"
+    website = "https://Tri0mpheL.github.io"
     # 推特
     twitter = "reuixiy"
 
@@ -327,7 +327,7 @@ uglyURLs = false
 
     ## 「诗意人生」
     # 诗句，支持 Markdown
-    homePoetry = []
+    homePoetry = ["事了拂衣去，深藏身与名。"]
     # 底部链接的内间距，单位：em
     homeLinksPadding = 1
 

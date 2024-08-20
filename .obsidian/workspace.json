@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/中文图片测试blog/index.md",
+                "file": "content/about.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/中文图片测试blog/index.md",
+                "file": "content/about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/中文图片测试blog/index.md",
+                "file": "content/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/中文图片测试blog/index.md"
+                "file": "content/about.md"
               }
             }
           }
@@ -148,21 +148,22 @@
   },
   "active": "7c2705dbddb93738",
   "lastOpenFiles": [
+    "public/css/meme.min.7b7118a5f03780585983f918720f3393d39729e04ab2739824b686fbcac6d4e3.css",
+    "content/posts/my-first-blog.md",
+    "content/about.md",
+    "content/posts/中文图片测试blog/index.md",
     "public/posts/中文图片测试blog/test/index.html",
     "public/posts/中文图片测试blog/test",
     "public/posts/中文图片测试blog/index.html",
     "public/posts/中文图片测试blog/图片1.png",
     "public/posts/中文图片测试blog",
     "content/posts/中文图片测试blog/图片1.png",
-    "content/posts/中文图片测试blog/index.md",
     "content/posts/goisforlovers.md",
     "content/posts/中文图片测试blog",
     "content/posts/未命名.md",
     "content/posts/migrate-from-jekyll.md",
-    "content/posts/my-first-blog.md",
     "_Templates/模板.md",
     "_Templates",
-    "content/about.md",
     "images/test.png",
     "images",
     "content/posts/creating-a-new-theme.md",
@@ -172,7 +173,6 @@
     "public/未命名",
     "static/images",
     "public/img/Pasted image 20240807152431.png",
-    "public/img",
     "content/posts/creating-a-new-theme.fr.md",
     "content/about/_index.md",
     "content/posts/hugoisforlovers.md",

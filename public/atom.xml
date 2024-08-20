@@ -2,14 +2,14 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
-    <title type="text">Hugo 主题 MemE</title>
+    <title type="text">剑客六七</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2024-08-12T16:51:21&#43;08:00</updated>
+    <updated>2024-08-20T17:33:17&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
     <author>
-            <name>coyote</name>
+            <name>Tri0mphe</name>
             <uri>http://localhost:1313/</uri>
             
                 <email>reuixiy@gmail.com</email>
@@ -23,8 +23,8 @@
             <updated>2024-08-07T15:23:55&#43;08:00</updated>
             <published>2014-09-28T00:00:00&#43;00:00</published>
             <author>
-                    <name>coyote</name>
-                    <uri>https://io-oi.me/</uri>
+                    <name>Tri0mphe</name>
+                    <uri>https://Tri0mpheL.github.io</uri>
                     <email>reuixiy@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&#39;ll explain how Hugo uses templates and how you can organize your templates to create a theme.</summary>
@@ -855,8 +855,8 @@ $ vi themes/zafta/layouts/_default/single.html
             <updated>2024-08-07T15:10:55&#43;08:00</updated>
             <published>2014-03-10T00:00:00&#43;00:00</published>
             <author>
-                    <name>coyote</name>
-                    <uri>https://io-oi.me/</uri>
+                    <name>Tri0mphe</name>
+                    <uri>https://Tri0mpheL.github.io</uri>
                     <email>reuixiy@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like</summary>
@@ -1004,14 +1004,14 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
         </entry>
     
         <entry>
-            <title type="text">中文图片测试blog</title>
+            <title type="text">中文图片测试blog333</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/%E4%B8%AD%E6%96%87%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95blog/" />
             <id>http://localhost:1313/posts/%E4%B8%AD%E6%96%87%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95blog/</id>
-            <updated>2024-08-12T16:51:15&#43;08:00</updated>
+            <updated>2024-08-12T16:51:34&#43;08:00</updated>
             <published>2024-08-12T00:00:00&#43;00:00</published>
             <author>
-                    <name>coyote</name>
-                    <uri>https://io-oi.me/</uri>
+                    <name>Tri0mphe</name>
+                    <uri>https://Tri0mpheL.github.io</uri>
                     <email>reuixiy@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"></summary>
@@ -1038,8 +1038,8 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
             <updated>2024-08-06T20:37:45&#43;08:00</updated>
             <published>2014-04-02T00:00:00&#43;00:00</published>
             <author>
-                    <name>coyote</name>
-                    <uri>https://io-oi.me/</uri>
+                    <name>Tri0mphe</name>
+                    <uri>https://Tri0mpheL.github.io</uri>
                     <email>reuixiy@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website.</summary>
@@ -1354,8 +1354,8 @@ so, such as in this example:&lt;/p&gt;
             <updated>2024-08-12T10:24:09&#43;08:00</updated>
             <published>0001-01-01T00:00:00&#43;00:00</published>
             <author>
-                    <name>coyote</name>
-                    <uri>https://io-oi.me/</uri>
+                    <name>Tri0mphe</name>
+                    <uri>https://Tri0mpheL.github.io</uri>
                     <email>reuixiy@gmail.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">1 2 3 test 1231231 print(&amp;#34;heelo&amp;#34;) hello 1111111111 test1111 123123 测试图片</summary>

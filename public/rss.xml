@@ -7,7 +7,7 @@
 
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Hugo 主题 MemE</title>
+        <title>剑客六七</title>
         <link>http://localhost:1313/</link>
         <description>MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</description>
         <generator>Hugo 0.131.0 https://gohugo.io/</generator>
@@ -15,15 +15,15 @@
             <language>zh-CN</language>
         
         
-            <managingEditor>reuixiy@gmail.com (coyote)</managingEditor>
+            <managingEditor>reuixiy@gmail.com (Tri0mphe)</managingEditor>
         
         
-            <webMaster>reuixiy@gmail.com (coyote)</webMaster>
+            <webMaster>reuixiy@gmail.com (Tri0mphe)</webMaster>
         
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 12 Aug 2024 16:51:21 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 20 Aug 2024 17:33:17 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="http://localhost:1313/rss.xml" />
         
@@ -34,7 +34,7 @@
                 <guid isPermaLink="true">http://localhost:1313/posts/creating-a-new-theme/</guid>
                 <pubDate>Sun, 28 Sep 2014 00:00:00 &#43;0000</pubDate>
                 
-                    <author>reuixiy@gmail.com (coyote)</author>
+                    <author>reuixiy@gmail.com (Tri0mphe)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
@@ -863,7 +863,7 @@ $ vi themes/zafta/layouts/_default/single.html
                 <guid isPermaLink="true">http://localhost:1313/posts/migrate-from-jekyll/</guid>
                 <pubDate>Mon, 10 Mar 2014 00:00:00 &#43;0000</pubDate>
                 
-                    <author>reuixiy@gmail.com (coyote)</author>
+                    <author>reuixiy@gmail.com (Tri0mphe)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
@@ -1010,12 +1010,12 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
             </item>
         
             <item>
-                <title>中文图片测试blog</title>
+                <title>中文图片测试blog333</title>
                 <link>http://localhost:1313/posts/%E4%B8%AD%E6%96%87%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95blog/</link>
                 <guid isPermaLink="true">http://localhost:1313/posts/%E4%B8%AD%E6%96%87%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95blog/</guid>
                 <pubDate>Mon, 12 Aug 2024 00:00:00 &#43;0000</pubDate>
                 
-                    <author>reuixiy@gmail.com (coyote)</author>
+                    <author>reuixiy@gmail.com (Tri0mphe)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
@@ -1040,7 +1040,7 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
                 <guid isPermaLink="true">http://localhost:1313/posts/goisforlovers/</guid>
                 <pubDate>Wed, 02 Apr 2014 00:00:00 &#43;0000</pubDate>
                 
-                    <author>reuixiy@gmail.com (coyote)</author>
+                    <author>reuixiy@gmail.com (Tri0mphe)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
@@ -1353,7 +1353,7 @@ so, such as in this example:&lt;/p&gt;
                 <guid isPermaLink="true">http://localhost:1313/posts/my-first-blog/</guid>
                 <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
                 
-                    <author>reuixiy@gmail.com (coyote)</author>
+                    <author>reuixiy@gmail.com (Tri0mphe)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 

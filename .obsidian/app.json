@@ -9,5 +9,6 @@
   "userIgnoreFilters": [
     "public/"
   ],
-  "readableLineLength": false
+  "readableLineLength": false,
+  "showUnsupportedFiles": true
 }
