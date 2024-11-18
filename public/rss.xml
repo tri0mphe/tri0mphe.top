@@ -15,15 +15,15 @@
             <language>zh-CN</language>
         
         
-            <managingEditor>reuixiy@gmail.com (Tri0mphe)</managingEditor>
+            <managingEditor>tri0mphe@qq.com (Tri0mphe)</managingEditor>
         
         
-            <webMaster>reuixiy@gmail.com (Tri0mphe)</webMaster>
+            <webMaster>tri0mphe@qq.com (Tri0mphe)</webMaster>
         
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 20 Aug 2024 17:33:17 &#43;0800</lastBuildDate>
+        <lastBuildDate>Tue, 20 Aug 2024 18:48:51 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="http://localhost:1313/rss.xml" />
         
@@ -34,7 +34,7 @@
                 <guid isPermaLink="true">http://localhost:1313/posts/creating-a-new-theme/</guid>
                 <pubDate>Sun, 28 Sep 2014 00:00:00 &#43;0000</pubDate>
                 
-                    <author>reuixiy@gmail.com (Tri0mphe)</author>
+                    <author>tri0mphe@qq.com (Tri0mphe)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
@@ -863,7 +863,7 @@ $ vi themes/zafta/layouts/_default/single.html
                 <guid isPermaLink="true">http://localhost:1313/posts/migrate-from-jekyll/</guid>
                 <pubDate>Mon, 10 Mar 2014 00:00:00 &#43;0000</pubDate>
                 
-                    <author>reuixiy@gmail.com (Tri0mphe)</author>
+                    <author>tri0mphe@qq.com (Tri0mphe)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
@@ -1015,11 +1015,27 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
                 <guid isPermaLink="true">http://localhost:1313/posts/%E4%B8%AD%E6%96%87%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95blog/</guid>
                 <pubDate>Mon, 12 Aug 2024 00:00:00 &#43;0000</pubDate>
                 
-                    <author>reuixiy@gmail.com (Tri0mphe)</author>
+                    <author>tri0mphe@qq.com (Tri0mphe)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;&lt;img src=&#34;%E5%9B%BE%E7%89%871.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+                    <description>&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-docker&#34; data-lang=&#34;docker&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;s&#34;&gt; alpine:latest&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;COPY&lt;/span&gt; resource.tar /&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;RUN&lt;/span&gt; touch /resource.tar&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;RUN&lt;/span&gt; rm -f /resource.tar&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ENTRYPOINT&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/bin/ash&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;%E5%9B%BE%E7%89%871.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
                 
                 
@@ -1040,7 +1056,7 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
                 <guid isPermaLink="true">http://localhost:1313/posts/goisforlovers/</guid>
                 <pubDate>Wed, 02 Apr 2014 00:00:00 &#43;0000</pubDate>
                 
-                    <author>reuixiy@gmail.com (Tri0mphe)</author>
+                    <author>tri0mphe@qq.com (Tri0mphe)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
@@ -1353,7 +1369,7 @@ so, such as in this example:&lt;/p&gt;
                 <guid isPermaLink="true">http://localhost:1313/posts/my-first-blog/</guid>
                 <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
                 
-                    <author>reuixiy@gmail.com (Tri0mphe)</author>
+                    <author>tri0mphe@qq.com (Tri0mphe)</author>
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 

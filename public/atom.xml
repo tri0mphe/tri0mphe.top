@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">剑客六七</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2024-08-20T17:33:17&#43;08:00</updated>
+    <updated>2024-08-20T18:48:51&#43;08:00</updated>
     <id>http://localhost:1313/</id>
     <link rel="alternate" type="text/html" href="http://localhost:1313/" />
     <link rel="self" type="application/atom&#43;xml" href="http://localhost:1313/atom.xml" />
@@ -12,7 +12,7 @@
             <name>Tri0mphe</name>
             <uri>http://localhost:1313/</uri>
             
-                <email>reuixiy@gmail.com</email>
+                <email>tri0mphe@qq.com</email>
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.131.0">Hugo</generator>
@@ -25,7 +25,7 @@
             <author>
                     <name>Tri0mphe</name>
                     <uri>https://Tri0mpheL.github.io</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <email>tri0mphe@qq.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&#39;ll explain how Hugo uses templates and how you can organize your templates to create a theme.</summary>
             
@@ -857,7 +857,7 @@ $ vi themes/zafta/layouts/_default/single.html
             <author>
                     <name>Tri0mphe</name>
                     <uri>https://Tri0mpheL.github.io</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <email>tri0mphe@qq.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like</summary>
             
@@ -1007,16 +1007,32 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
             <title type="text">中文图片测试blog333</title>
             <link rel="alternate" type="text/html" href="http://localhost:1313/posts/%E4%B8%AD%E6%96%87%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95blog/" />
             <id>http://localhost:1313/posts/%E4%B8%AD%E6%96%87%E5%9B%BE%E7%89%87%E6%B5%8B%E8%AF%95blog/</id>
-            <updated>2024-08-12T16:51:34&#43;08:00</updated>
+            <updated>2024-08-20T18:48:39&#43;08:00</updated>
             <published>2024-08-12T00:00:00&#43;00:00</published>
             <author>
                     <name>Tri0mphe</name>
                     <uri>https://Tri0mpheL.github.io</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <email>tri0mphe@qq.com</email>
                     </author>
-            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"></summary>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">1 2 3 4 5 FROM alpine:latest COPY resource.tar / RUN touch /resource.tar RUN rm -f /resource.tar ENTRYPOINT [&amp;#34;/bin/ash&amp;#34;]</summary>
             
-                <content type="html">&lt;p&gt;&lt;img src=&#34;%E5%9B%BE%E7%89%871.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+                <content type="html">&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-docker&#34; data-lang=&#34;docker&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;FROM&lt;/span&gt;&lt;span class=&#34;s&#34;&gt; alpine:latest&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;COPY&lt;/span&gt; resource.tar /&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;RUN&lt;/span&gt; touch /resource.tar&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;RUN&lt;/span&gt; rm -f /resource.tar&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;ENTRYPOINT&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;/bin/ash&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;%E5%9B%BE%E7%89%871.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </content>
             
             
@@ -1040,7 +1056,7 @@ Liquid::Template.register_tag(&#39;image&#39;, Jekyll::ImageTag)
             <author>
                     <name>Tri0mphe</name>
                     <uri>https://Tri0mpheL.github.io</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <email>tri0mphe@qq.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website.</summary>
             
@@ -1356,7 +1372,7 @@ so, such as in this example:&lt;/p&gt;
             <author>
                     <name>Tri0mphe</name>
                     <uri>https://Tri0mpheL.github.io</uri>
-                    <email>reuixiy@gmail.com</email>
+                    <email>tri0mphe@qq.com</email>
                     </author>
             <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">1 2 3 test 1231231 print(&amp;#34;heelo&amp;#34;) hello 1111111111 test1111 123123 测试图片</summary>
             

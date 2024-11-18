@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/about.md",
+                "file": "content/posts/中文图片测试blog/index.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -62,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -93,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "about 的反向链接列表"
             }
           },
           {
@@ -105,7 +115,9 @@
                 "file": "content/about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "about 的出链列表"
             }
           },
           {
@@ -116,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -126,7 +140,9 @@
               "type": "outline",
               "state": {
                 "file": "content/about.md"
-              }
+              },
+              "icon": "lucide-list",
+              "title": "about 的大纲"
             }
           }
         ]
@@ -148,30 +164,29 @@
   },
   "active": "7c2705dbddb93738",
   "lastOpenFiles": [
-    "static/CNAME",
-    "public/css/meme.min.7b7118a5f03780585983f918720f3393d39729e04ab2739824b686fbcac6d4e3.css",
-    "content/posts/my-first-blog.md",
     "content/about.md",
     "content/posts/中文图片测试blog/index.md",
+    "content/posts/my-first-blog.md",
+    "content/posts/migrate-from-jekyll.md",
+    "images/test.png",
+    "content/posts/中文图片测试blog/图片1.png",
+    "public/CNAME",
+    "static/CNAME",
+    "public/css/meme.min.7b7118a5f03780585983f918720f3393d39729e04ab2739824b686fbcac6d4e3.css",
     "public/posts/中文图片测试blog/test/index.html",
     "public/posts/中文图片测试blog/test",
     "public/posts/中文图片测试blog/index.html",
     "public/posts/中文图片测试blog/图片1.png",
     "public/posts/中文图片测试blog",
-    "content/posts/中文图片测试blog/图片1.png",
     "content/posts/goisforlovers.md",
     "content/posts/中文图片测试blog",
     "content/posts/未命名.md",
-    "content/posts/migrate-from-jekyll.md",
     "_Templates/模板.md",
     "_Templates",
-    "images/test.png",
     "images",
     "content/posts/creating-a-new-theme.md",
     "public/images/test.png",
     "public/images/Pasted image 20240807152431.png",
-    "public/images",
-    "public/未命名",
     "public/img/Pasted image 20240807152431.png",
     "content/posts/creating-a-new-theme.fr.md",
     "content/about/_index.md",

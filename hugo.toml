@@ -2,7 +2,7 @@
 # 站点配置
 
 baseURL = "https://Tri0mpheL.github.io"
-title = "剑客六七"
+title = "Tri0mphe"
 languageCode = "zh-CN"
 hasCJKLanguage = true
 # 版权信息（支持 Markdown）
@@ -790,7 +790,7 @@ uglyURLs = false
     # 注意：只支持 HSL 颜色值
 
     # 文章的内容宽度
-    postWidth = 36
+    postWidth = 42
     # 说明：如果留空（""），则用 42 作为默认值
     #      单位：em
 
@@ -857,7 +857,7 @@ uglyURLs = false
     # 阅读时长的图标
     readingTimeIcon = "clock"
 
-    # 是否显示不蒜子页面浏览量
+    # 是否显示不算子页面浏览量
     displayBusuanziPagePV = false
     # 不蒜子页面浏览量的图标
     busuanziPagePVIcon = "eye"
